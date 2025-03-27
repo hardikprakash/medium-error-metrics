@@ -1,7 +1,3 @@
-# ML Error Metrics Analysis
-
-A comprehensive toolkit for evaluating machine learning models through essential error metrics for both classification and regression tasks.
-
 ## 📊 Project Overview
 
 This repository contains Jupyter notebooks demonstrating how to properly evaluate machine learning models by implementing and visualizing various error metrics. It provides practical examples for comparing model performance and making informed decisions.
@@ -30,14 +26,16 @@ print_classification_metrics("Logistic Regression", y_test, y_pred_log)
 print_classification_metrics("Random Forest Classifier", y_test, y_pred_rf)
 ```
 
-📈 Regression Metrics
+## 📈 Regression Metrics
+
 The regression notebook covers:
 
-Mean Absolute Error (MAE)
-Root Mean Square Error (RMSE)
-R-squared (R²)
-Residual plots
-Usage Example
+- Mean Absolute Error (MAE)
+- Root Mean Square Error (RMSE)
+- R-squared (R²)
+
+
+## Usage Example
 
 ```python
 # For Random Forest Regressor
@@ -50,15 +48,17 @@ print(f"RMSE: {rmse_rf:.2f}")
 print(f"R²: {r2_rf:.2f}")
 ```
 
-🛠️ Requirements
-Python 3.x
-scikit-learn
-numpy
-pandas
-matplotlib
-seaborn
+## 🛠️ Requirements
+- Python 3.x
+- scikit-learn
+- numpy
+- pandas
+- matplotlib
+- seaborn
 
-🚀 Getting Started
+## 🚀 Getting Started
 Clone this repository
+
 Install dependencies:
+
 `pip install -r requirements.txt`
