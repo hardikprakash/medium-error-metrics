@@ -28,6 +28,7 @@ The classification notebook demonstrates:
 ```python
 print_classification_metrics("Logistic Regression", y_test, y_pred_log)
 print_classification_metrics("Random Forest Classifier", y_test, y_pred_rf)
+```
 
 📈 Regression Metrics
 The regression notebook covers:
